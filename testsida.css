@@ -1,3 +1,25 @@
 body {
-	background-color: blue;
+	background-color: lightyellow;
+}
+h1 {
+	color: green;
+	text-align: center;
+	font-family: helvetica;
+}
+h2 {
+	font-family: helvetica;
+}
+h3 {
+	color: blue;
+	font-family: helvetica;
+	font-size: ;
+}
+.firstheading {
+	color: red;
+}
+.bigpicture {
+	width: 80%;
+}
+.mediumpicture {
+	width: 60%;
 }
