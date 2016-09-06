@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="sv">
 <head><meta charset="utf-8">
+<link href="testsida.css" rel="stylesheet">
 <title>Ellens första sida</title>
 </head>
 <body>
@@ -68,19 +69,35 @@ ett repository (en logg för ett nytt projekt)*
 <option> Nej, jag skummade bara </option>
 </select> </p>
 
+<form> 
+<b> Vad heter du? <br>
+<input type="text" name="namn"><br>
+
+<br> Vilken kurs har du gått? <br> <br> </b>
+<input type="radio" name="kurs" value="Basics of web development"> Basics of web development <br>
+<input type="radio" name="kurs" value="Essentials of programming"> Essentials of programming <br>
+<input type="radio" name="kurs" value="Hackathon"> Hackathon<br>
+<input type="radio" name="kurs" value=" Arduino"> Arduino<br>
+<input type="radio" name="kurs" value="den sista, som jag inte minns"> den sista, som jag inte minns<br>
+</form>
+
 
 <h2> Dag 2: Vi lär oss HTML och CSS - och börjar koda </h2>
 </body>
 
 <h3> Lägga in bilder </h3>
 <p> För att lägga in bilder använder man html-taggen img. Det ser ut så här <xmp> <img src="filens sökväg"> </xmp> 
-(FÖr att skriva det där exemplet på kod utan att det faktiskt <i>blev</i> kod använde jag HTML-taggen xmp.)
+(För att skriva det där exemplet på kod utan att det faktiskt <i>blev</i> kod använde jag HTML-taggen xmp.)
 
 Det finns <b>två sätt</b> att länka in bilderna där det står "filens sökväg". Antingen lägger man den aktuella bilden i samma mapp som kod-filen, och anger namnet på filen efter src=. Det andra sättet är att använda en bild som finns online och istället skriva in sökvägen (i form av en URL).
-
+</br>
 Här har jag använt den första metoden:
-
-<img src="uke.jpg" alt="Här är en bild på mig när jag spelar ukulele" >
-
+</br>
+<img src="uke.jpg" width="50%" alt="Här är en bild på mig när jag spelar ukulele" >
+</br>
 Här har jag använt den andra metoden: 
-<img src="http://gloop.se/wp-content/uploads/2015/05/asiatisk-elefant.jpg">
+</br><img src="http://gloop.se/wp-content/uploads/2015/05/asiatisk-elefant.jpg" width="450 px">
+
+<p> För att få en annan storlek på bilden kan jag antingen ange antal pixlar eller andel av sidans bredd: <xmp> <img src=uke.jpg" width "300 px" > 
+</br> <img src=uke.jpg" width "50%" >
+</xmp>
