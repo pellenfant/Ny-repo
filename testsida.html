@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="sv">
+<head><meta charset="utf-8">
+<title>Ellens första sida</title>
+</head>
+<body>
+<h1> Allt jag vet om programmering </h1>
+<p> Här kan jag skriva och berätta om saker som jag lär mig när jag är på programmeringsläger i Barcelona. Det kommer nog se rätt så rörigt ut. Just bear with me, okay? <p/><br />
+<h2> Dag 1: Vi laddar ner saker – och går till stranden </h2>
+
+<b>Dagens program</b> <ul> 
+<li> Förstå vad Python är o innebär</li>
+<li> Kunna använda terminalen</li>
+<li> Kunna versionshantera med Github </li>
+<li> Veta vad Stack Overflow är
+<li> Gå till stranden
+
+<p> 
+<h3> Vad är Python?  </h3>
+Python är ett programmeringsspråk, dvs. en kod som beskriver en sekvens av saker som ska göras. 
+
+</br> </br> Python är lättare att läsa och förstå än många andra språk. 
+Det ”skalar med programmeraren” - ju duktigare man blir, desto mer kan man göra. Det är inte bara ett nybörjarspråk! Det är också ett av de mer populära språken.  
+
+</br> </br> Vi kommer använda Python 3, eftersom det är ännu bättre för nybörjare än tidigare versioner. Det är också vad folk kommer använda i framtiden. 
+
+<h3>Terminalen - kommandotolken  </h3>
+
+
+Kommandon: 
+pwd = kolla vilken mapp du befinner dig i
+cd MAPPNAMN = change directoy
+ls = lista filer i mappen i fråga
+open FILNAMN = öppna ett dokument i aktuell mapp
+cd .. = hoppa en mapp uppåt i strukturen
+
+</br> kör program: 
+1. i terminalen: ställ dig i mappen där programmet finns, till exempel myfirstrepo (använd kommandona cd och ls tills du är på rätt ställe)
+2. skriv: python3 FILNAMN.py
+
+<h3>Sublime text - kodredigerare</h3>
+
+# används i början av en rad för att markera att det är en anteckning och inte en del av koden
+
+<h3>GITHUB - versionshantering </h3>
+Förr i tiden:
+Utvecklades dator  —FTP—> Produktionsdator
+</br> </br> Oftast skrivs saker över, så det går inte att ångra. Det blir också problem om två personer jobbar parallellt. Med versionshantering kan man i stället se allt steg för steg. 
+
+</br> Vi kommer att använda git. (utvecklat av Linus Thorvalds=skitstövel) 
+</br> Git är som en logg som sparar alla ändringar man har gjort. 
+Man väljer att logga genom att använda ”commit”-kommandot. Koden ”pushas” då till en förvaringsyta. 
+
+
+</br> </br> Vi pushar vår kod till GitHub. 
+
+ett repository (en logg för ett nytt projekt)*
+
+* Ändringar som görs i Sublime text dyker upp i Github, och måste sedan commitas. 
+
+* Det går också att göra en ändring av flera filer, och sen skicka med alla ändringar i en commit. Commits är en slags behållare som man ska försöka hålla så relevant som möjligt. "Ändrade rad 1" ger inte så mycket info, men "Fixade bugg på startsidan" ger desto mer. 
+</br> Stack Overflow: fråga-svar-sajt för utvecklare. 
+
+
+<p> <b> Nu undrar jag - har du läst ända hit? </b>
+<select name="Har du läst ända hit?"> 
+<option> Ja </option>
+<option> Nej, jag skummade bara </option>
+</select> </p>
+
+
+<h2> Dag 2: Vi lär oss HTML och CSS - och börjar koda </h2>
+</body>
+
+<h3> Lägga in bilder </h3>
+<p> För att lägga in bilder använder man html-taggen img. Det ser ut så här <xmp> <img src="filens sökväg"> </xmp> 
+(FÖr att skriva det där exemplet på kod utan att det faktiskt <i>blev</i> kod använde jag HTML-taggen xmp.)
+
+Det finns <b>två sätt</b> att länka in bilderna där det står "filens sökväg". Antingen lägger man den aktuella bilden i samma mapp som kod-filen, och anger namnet på filen efter src=. Det andra sättet är att använda en bild som finns online och istället skriva in sökvägen (i form av en URL).
+
+Här har jag använt den första metoden:
+
+<img src="uke.jpg" alt="Här är en bild på mig när jag spelar ukulele" >
+
+Här har jag använt den andra metoden: 
+<img src="http://gloop.se/wp-content/uploads/2015/05/asiatisk-elefant.jpg">
